@@ -55,6 +55,7 @@ Capacité à formuler des prédictions basées sur les cycles précédents
 Visualisation claire des pics, creux, et transitions de marché pour guider l’analyse de risque
 
 ▶️ Exécution du projet
+
 💻 Prérequis :
 
 Power BI Desktop installé
