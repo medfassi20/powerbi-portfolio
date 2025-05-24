@@ -23,6 +23,7 @@ Langage R : utilisé pour le nettoyage des données (traitement des doublons, va
 CSV Dataset : dataset financier téléchargé depuis Kaggle (plus de 5700 lignes avec indicateurs financiers : Open, Close, High, Low, Volume, Currency, Date)
 
 🔍 Description du projet
+
 Nettoyage en R : chargement des données via read.csv(), vérification et suppression des valeurs manquantes et doublons à l’aide des fonctions is.na() et duplicated()
 
 Exploration des données : création de graphiques temporels pour étudier les périodes de hausse et de baisse du marché de l’or
@@ -45,15 +46,13 @@ Indicateurs financiers : Volume, Prix moyen, Variation
 
 Mise en page interactive et épurée pour faciliter la prise de décision
 
-📈 Résultats & Insights
+📈 Résultats & Insights :
+
 Identification de corrélations entre événements macroéconomiques (Covid-19, relance économique) et variations du marché de l’or
 
 Capacité à formuler des prédictions basées sur les cycles précédents
 
 Visualisation claire des pics, creux, et transitions de marché pour guider l’analyse de risque
-
-🖼️ Capture d’écran
-(Ajouter ici une capture du dashboard Power BI ou un GIF montrant l’interaction avec les filtres)
 
 ▶️ Exécution du projet
 💻 Prérequis :
@@ -64,11 +63,12 @@ Environnement R
 
 📁 Démarrage rapide :
 
-Ouvrir le fichier dashboard_or.pbix dans Power BI
+Ouvrir le fichier fileRep.pbix dans Power BI
 
-Rafraîchir les données pour lancer les scripts R intégrés
+Charger le fichier de données (gold.csv)
 
-👤 Auteur
+👤 Auteur :
+
 Mohammed Fassi Fehri
 
 LinkedIn
@@ -78,4 +78,5 @@ GitHub
 mohammed.fassifehri@outlook.fr
 
 📚 Source des données
-Dataset Kaggle : Daily Gold Price Historical Data
+
+Vous pouvez consulter le dataset utilisé dans ce projet en cliquant sur [ce lien Kaggle](https://www.kaggle.com/datasets/psycon/daily-gold-price-historical-data).
