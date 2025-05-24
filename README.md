@@ -71,12 +71,12 @@ Charger le fichier de données (gold.csv)
 
 Mohammed Fassi Fehri
 
-LinkedIn
+[LinkedIn](https://www.linkedin.com/in/mohammed-fassi-fehri)
 
-GitHub
+[GitHub](https://github.com/medfassi20)
 
 mohammed.fassifehri@outlook.fr
 
 📚 Source des données
 
-Vous pouvez consulter le dataset utilisé dans ce projet en cliquant sur [ce lien Kaggle](https://www.kaggle.com/datasets/psycon/daily-gold-price-historical-data).
+Vous pouvez consulter le dataset utilisé dans ce projet en cliquant sur [ce lien Kaggle](https://www.kaggle.com/datasets/faisaljanjua0555/daily-gold-price-historical-dataset).
