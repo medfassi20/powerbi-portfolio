@@ -1,83 +1,117 @@
-📊 Analyse de l'Évolution du Marché de l'Or – Dashboard Power BI & R
+# 📊 Analyse du Marché de l'Or – Dashboard Power BI & R
 
-📌 Contexte : 
+## 🚀 Aperçu
 
-Ce projet de Business Intelligence a été réalisé dans le cadre académique, avec pour objectif d’analyser l’évolution historique du marché de l’or à l’aide d’outils de data reporting. L’enjeu consistait à produire des visualisations interactives permettant d'identifier des tendances financières significatives, d'expliquer les cycles économiques et d’anticiper les mouvements futurs du marché.
+Ce projet propose une analyse de l’évolution du marché de l’or à partir de données historiques.
+Il combine **R pour le nettoyage des données** et **Power BI pour la visualisation interactive** afin d’identifier les tendances, les cycles économiques et les comportements du marché.
 
-🎯 Objectifs : 
+L’objectif est de fournir des insights utiles pour la prise de décision en contexte financier 💡
 
-Explorer et analyser des données financières historiques liées au prix et au volume de l’or
+---
 
-Concevoir un dashboard interactif dans Power BI pour la visualisation des tendances temporelles
+## 📸 Aperçu du Dashboard
 
-Nettoyer et préparer les données en R afin d’assurer leur fiabilité
+![Dashboard](images/dashboard.png)
 
-Fournir des insights utiles à la prise de décision dans un contexte d’investissement ou de veille financière
+---
 
-🛠️ Technologies utilisées : 
+## 📊 Analyse des données
 
-Power BI Desktop : pour la visualisation et la modélisation des données
+### 📈 Volume de transactions de l’or par année
 
-Langage R : utilisé pour le nettoyage des données (traitement des doublons, valeurs manquantes)
+![Volume par année](images/volume_par_annee.png)
 
-CSV Dataset : dataset financier téléchargé depuis Kaggle (plus de 5700 lignes avec indicateurs financiers : Open, Close, High, Low, Volume, Currency, Date)
+Ce graphique met en évidence une **forte augmentation du volume en 2022**, traduisant une volatilité accrue du marché dans un contexte d’incertitude économique (inflation, tensions géopolitiques).
 
-🔍 Description du projet
+---
 
-Nettoyage en R : chargement des données via read.csv(), vérification et suppression des valeurs manquantes et doublons à l’aide des fonctions is.na() et duplicated()
+## 🎯 Objectifs
 
-Exploration des données : création de graphiques temporels pour étudier les périodes de hausse et de baisse du marché de l’or
+* Analyser les données historiques du prix et du volume de l’or
+* Identifier les tendances et cycles du marché
+* Concevoir un dashboard interactif
+* Extraire des insights utiles à l’analyse financière
 
-Analyse temporelle : mise en évidence de trois cycles principaux :
+---
 
-📈 Hausse marquée de 2000 à 2010
+## 🛠️ Technologies utilisées
 
-📉 Chute entre 2010 et 2020, liée à la stagnation économique et à la pandémie
+* **Power BI Desktop** → Visualisation et dashboard
+* **R** → Nettoyage et préparation des données
+* **Dataset CSV (Kaggle)** → Données financières
 
-📈 Reprise fulgurante entre 2020 et 2022
+---
 
-Dashboard Power BI :
+## 🔍 Préparation des données
 
-Graphiques dynamiques par période
+* Chargement des données avec `read.csv()`
+* Traitement des valeurs manquantes avec `is.na()`
+* Suppression des doublons avec `duplicated()`
 
-Filtres temporels pour explorer les tendances
+---
 
-Indicateurs financiers : Volume, Prix moyen, Variation
+## 📈 Résultats & Insights
 
-Mise en page interactive et épurée pour faciliter la prise de décision
+* 📈 Croissance entre **2000 – 2010**
 
-📈 Résultats & Insights :
+* 📉 Correction entre **2010 – 2019**
 
-Identification de corrélations entre événements macroéconomiques (Covid-19, relance économique) et variations du marché de l’or
+* 🚀 Forte volatilité post-2020
 
-Capacité à formuler des prédictions basées sur les cycles précédents
+* Corrélation entre événements macroéconomiques et marché de l’or
 
-Visualisation claire des pics, creux, et transitions de marché pour guider l’analyse de risque
+* Identification des cycles, pics et creux
 
-▶️ Exécution du projet
+---
 
-💻 Prérequis :
+## ▶️ Exécution du projet
 
-Power BI Desktop installé
+1. Cloner le repository :
 
-Environnement R
+```bash
+git clone https://github.com/medfassi20/powerbi-portfolio
+```
 
-📁 Démarrage rapide :
+2. Ouvrir le fichier Power BI :
 
-Ouvrir le fichier fileRep.pbix dans Power BI
+```bash
+fileRep.pbix
+```
 
-Charger le fichier de données (gold.csv)
+3. Charger le dataset :
 
-👤 Auteur :
+```bash
+gold.csv
+```
 
-Mohammed Fassi Fehri
+4. Explorer le dashboard interactif 📊
 
-[LinkedIn](https://www.linkedin.com/in/mohammed-fassi-fehri)
+---
 
-[GitHub](https://github.com/medfassi20)
+## 📚 Source des données
 
-mohammed.fassifehri@outlook.fr
+Dataset disponible sur Kaggle :
+https://www.kaggle.com/datasets/faisaljanjua0555/daily-gold-price-historical-dataset
 
-📚 Source des données
+---
 
-Vous pouvez consulter le dataset utilisé dans ce projet en cliquant sur [ce lien Kaggle](https://www.kaggle.com/datasets/faisaljanjua0555/daily-gold-price-historical-dataset).
+## 👤 Auteur
+
+**Mohammed Fassi Fehri**
+
+* 💼 LinkedIn : https://www.linkedin.com/in/mohammed-fassi-fehri
+* 💻 GitHub : https://github.com/medfassi20
+* 📧 Email : [mohammed.fassifehri@outlook.fr](mailto:mohammed.fassifehri@outlook.fr)
+
+---
+
+## ⭐ Conclusion
+
+Ce projet démontre comment l’analyse de données financières permet de mieux comprendre les cycles économiques et d’anticiper les tendances du marché.
+
+L’utilisation combinée de **R et Power BI** permet de couvrir toute la chaîne de valeur :
+de la préparation des données à la visualisation et à la prise de décision.
+
+---
+
+⭐ Si ce projet vous a plu, n’hésitez pas à mettre une étoile au repository !
