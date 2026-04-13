@@ -11,15 +11,11 @@ L’objectif est de fournir des insights utiles pour la prise de décision en co
 
 ## 📸 Aperçu du Dashboard
 
-![Dashboard](images/dashboard.png)
+![Dashboard](images/report.png)
 
 ---
 
 ## 📊 Analyse des données
-
-### 📈 Volume de transactions de l’or par année
-
-![Volume par année](images/volume_par_annee.png)
 
 Ce graphique met en évidence une **forte augmentation du volume en 2022**, traduisant une volatilité accrue du marché dans un contexte d’incertitude économique (inflation, tensions géopolitiques).
 
